@@ -1400,3 +1400,365 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.07.11-10.56.06:934][720]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
 [2024.07.11-10.56.06:938][720]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
 [2024.07.11-10.56.10:626][728]LogAutomationController: Ignoring very large delta of 2.01 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.07.11-11.01.54:449][380]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behavior for '/Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.HDRI_Epic_Courtyard_Daylight', its maximum texture size has been explicitly set to 512.
+[2024.07.11-11.01.54:574][380]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2024.07.11-11.01.58:345][380]LogSlate: Window 'Delete Assets' being destroyed
+[2024.07.11-11.01.58:354][380]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.HDRI_Epic_Courtyard_Daylight
+	Asset Type: TextureCube
+[2024.07.11-11.01.59:463][380]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2024.07.11-11.01.59:467][380]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2024.07.11-11.01.59:471][380]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2024.07.11-11.01.59:646][380]SourceControl: Error: Updated 0 paths from the index
+[2024.07.11-11.01.59:787][380]SourceControl: rm 'Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset'
+[2024.07.11-11.01.59:808][381]LogAutomationController: Ignoring very large delta of 5.37 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.07.11-11.02.05:143][854]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2024.07.11-11.02.08:797][854]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.11-11.02.08:808][854]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_CSZE_65536_LCF_false_ZCS_0_MCSO_0_END wave Fire01...
+[2024.07.11-11.02.08:827][854]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_CSZE_65536_LCF_false_ZCS_0_MCSO_0_END wave Smoke01...
+[2024.07.11-11.02.08:827][854]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_CSZE_65536_LCF_false_ZCS_0_MCSO_0_END wave Fire_Sparks01...
+[2024.07.11-11.02.08:854][854]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_CSZE_65536_LCF_false_ZCS_0_MCSO_0_END wave Steam01...
+[2024.07.11-11.02.08:861][854]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_CSZE_65536_LCF_false_ZCS_0_MCSO_0_END wave Collapse01...
+[2024.07.11-11.02.08:867][854]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_CSZE_65536_LCF_false_ZCS_0_MCSO_0_END wave Collapse02...
+[2024.07.11-11.02.08:875][854]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_CSZE_65536_LCF_false_ZCS_0_MCSO_0_END wave Starter_Wind05...
+[2024.07.11-11.02.08:879][854]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_CSZE_65536_LCF_false_ZCS_0_MCSO_0_END wave Starter_Birds01...
+[2024.07.11-11.02.08:886][854]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_CSZE_65536_LCF_false_ZCS_0_MCSO_0_END wave Starter_Wind06...
+[2024.07.11-11.02.08:898][854]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_CSZE_65536_LCF_false_ZCS_0_MCSO_0_END wave Starter_Music01...
+[2024.07.11-11.02.08:927][854]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.11-11.02.09:074][854]LogLinker: Warning: [AssetLog] G:\Tetris\Content\StarterContent\Blueprints\BP_LightStudio.uasset: Failed to load '/Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight': Can't find file.
+[2024.07.11-11.02.09:074][854]LogLinker: Warning: [AssetLog] G:\Tetris\Content\StarterContent\Blueprints\BP_LightStudio.uasset: VerifyImport: Failed to load package for import object 'Package /Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight'
+[2024.07.11-11.02.09:316][854]LogAudio: Display: Chunk sizes for SoundWave /Game/StarterContent/Audio/Fire01.Fire01: Chunk0=28 bytes, Chunk1-N=256k
+[2024.07.11-11.02.09:317][854]LogAudio: Display: Chunk sizes for SoundWave /Game/StarterContent/Audio/Smoke01.Smoke01: Chunk0=28 bytes, Chunk1-N=256k
+[2024.07.11-11.02.09:317][854]LogAudio: Display: Chunk sizes for SoundWave /Game/StarterContent/Audio/Fire_Sparks01.Fire_Sparks01: Chunk0=28 bytes, Chunk1-N=256k
+[2024.07.11-11.02.09:318][854]LogAudio: Display: Chunk sizes for SoundWave /Game/StarterContent/Audio/Steam01.Steam01: Chunk0=28 bytes, Chunk1-N=256k
+[2024.07.11-11.02.09:326][854]LogAudio: Display: Chunk sizes for SoundWave /Game/StarterContent/Audio/Collapse01.Collapse01: Chunk0=28 bytes, Chunk1-N=256k
+[2024.07.11-11.02.09:327][854]LogAudio: Display: Chunk sizes for SoundWave /Game/StarterContent/Audio/Collapse02.Collapse02: Chunk0=28 bytes, Chunk1-N=256k
+[2024.07.11-11.02.09:433][854]LogAudio: Display: Chunk sizes for SoundWave /Game/StarterContent/Audio/Starter_Wind05.Starter_Wind05: Chunk0=28 bytes, Chunk1-N=256k
+[2024.07.11-11.02.09:441][854]LogAudio: Display: Chunk sizes for SoundWave /Game/StarterContent/Audio/Starter_Birds01.Starter_Birds01: Chunk0=28 bytes, Chunk1-N=256k
+[2024.07.11-11.02.09:458][854]LogAudio: Display: Chunk sizes for SoundWave /Game/StarterContent/Audio/Starter_Wind06.Starter_Wind06: Chunk0=28 bytes, Chunk1-N=256k
+[2024.07.11-11.02.09:495][854]LogAudio: Display: Chunk sizes for SoundWave /Game/StarterContent/Audio/Starter_Music01.Starter_Music01: Chunk0=28 bytes, Chunk1-N=256k
+[2024.07.11-11.02.09:594][854]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.11-11.02.09:596][854]LogObjectTools: Deleting 3 worlds: /Game/StarterContent/Maps/StarterMap.StarterMap, /Game/StarterContent/Maps/Minimal_Default.Minimal_Default, /Game/StarterContent/Maps/Advanced_Lighting.Advanced_Lighting
+[2024.07.11-11.02.09:596][854]LogObjectTools: Currently 2 active worlds: /Temp/Untitled_2.Untitled, /Engine/Transient.World_0
+[2024.07.11-11.02.09:604][854]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2024.07.11-11.02.11:307][854]LogSlate: Window 'Delete Assets' being destroyed
+[2024.07.11-11.02.11:316][854]LogWorld: UWorld::CleanupWorld for StarterMap, bSessionEnded=true, bCleanupResources=true
+[2024.07.11-11.02.11:317][854]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.11-11.02.11:318][854]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2024.07.11-11.02.11:318][854]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.11-11.02.11:318][854]LogWorld: UWorld::CleanupWorld for Advanced_Lighting, bSessionEnded=true, bCleanupResources=true
+[2024.07.11-11.02.11:318][854]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.11-11.02.11:449][854]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2024.07.11-11.02.11:454][854]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2024.07.11-11.02.11:458][854]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2024.07.11-11.02.11:621][854]SourceControl: Error: Updated 0 paths from the index
+[2024.07.11-11.02.11:759][854]SourceControl: rm 'Content/StarterContent/Maps/Advanced_Lighting.umap'
+[2024.07.11-11.02.11:759][854]SourceControl: rm 'Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset'
+[2024.07.11-11.02.11:759][854]SourceControl: rm 'Content/StarterContent/Maps/Minimal_Default.umap'
+[2024.07.11-11.02.11:759][854]SourceControl: rm 'Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2024.07.11-11.02.11:759][854]SourceControl: rm 'Content/StarterContent/Maps/StarterMap.umap'
+[2024.07.11-11.02.11:759][854]SourceControl: rm 'Content/StarterContent/Maps/StarterMap_BuiltData.uasset'
+[2024.07.11-11.02.11:834][855]LogAutomationController: Ignoring very large delta of 6.70 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.07.11-11.02.14:352][994]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.11-11.02.17:213][203]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.11-11.02.17:403][204]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.11-11.02.18:184][205]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.11-11.02.23:253][571]LogMaterial: Display: Material /Game/StarterContent/Props/Materials/M_TableRound.M_TableRound needed to have new flag set bUsedWithNanite !
+[2024.07.11-11.02.27:641][886]LogShaderCompilers: Display: ================================================
+[2024.07.11-11.02.27:641][886]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.07.11-11.02.27:641][886]LogShaderCompilers: Display: Total job queries 41, among them cache hits 0 (0.00%)
+[2024.07.11-11.02.27:641][886]LogShaderCompilers: Display: Tracking 1 distinct input hashes that result in 1 distinct outputs (100.00%)
+[2024.07.11-11.02.27:641][886]LogShaderCompilers: Display: RAM used: 31,06 KiB of 1,20 GiB budget. Usage: 0.00%
+[2024.07.11-11.02.27:641][886]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.07.11-11.02.27:641][886]LogShaderCompilers: Display: Shaders Compiled: 1
+[2024.07.11-11.02.27:641][886]LogShaderCompilers: Display: Jobs assigned 27, completed 1 (3.70%)
+[2024.07.11-11.02.27:641][886]LogShaderCompilers: Display: Average time worker was idle: 0.00 s
+[2024.07.11-11.02.27:641][886]LogShaderCompilers: Display: Time job spent in pending queue: average 0.76 s, longest 4.07 s
+[2024.07.11-11.02.27:641][886]LogShaderCompilers: Display: Job execution time: average 4.05 s, max 4.05 s
+[2024.07.11-11.02.27:641][886]LogShaderCompilers: Display: Job life time (pending + execution): average 4.06 s, max 4.06
+[2024.07.11-11.02.27:641][886]LogShaderCompilers: Display: Shader code size: average 49,652 KiB, min 49,652 KiB, max 49,652 KiB
+[2024.07.11-11.02.27:641][886]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 4.06 s
+[2024.07.11-11.02.27:641][886]LogShaderCompilers: Display: Jobs were issued in 5 batches (only local compilation was used), average 5.40 jobs/batch
+[2024.07.11-11.02.27:641][886]LogShaderCompilers: Display: Average processing rate: 0.25 jobs/sec
+[2024.07.11-11.02.27:641][886]LogShaderCompilers: Display: Total thread time: 0,915 s
+[2024.07.11-11.02.27:641][886]LogShaderCompilers: Display: Total thread preprocess time: 0,07 s
+[2024.07.11-11.02.27:641][886]LogShaderCompilers: Display: Percentage time preprocessing: 7.69%
+[2024.07.11-11.02.27:641][886]LogShaderCompilers: Display: Effective parallelization: 0.23 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2024.07.11-11.02.27:641][886]LogShaderCompilers: Display: Top 1 most expensive shader types by average time:
+[2024.07.11-11.02.27:641][886]LogShaderCompilers: Display:                                           FLumenCardPS<true> (compiled    1 times, average 0.92 sec, max 0.92 sec, min 0.92 sec)
+[2024.07.11-11.02.27:641][886]LogShaderCompilers: Display: Top 1 shader types by total compile time:
+[2024.07.11-11.02.27:641][886]LogShaderCompilers: Display:                                           FLumenCardPS<true> - 100.00% of total time (compiled    1 times, average 0.92 sec, max 0.92 sec, min 0.92 sec)
+[2024.07.11-11.02.27:642][886]LogShaderCompilers: Display: ================================================
+[2024.07.11-11.02.28:175][901]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2024.07.11-11.02.29:395][901]LogSlate: Window 'Delete Assets' being destroyed
+[2024.07.11-11.02.29:422][901]LogUObjectGlobals: Force Deleting 28 Package(s):
+	Asset Name: /Game/StarterContent/Props/SM_Lamp_Wall.SM_Lamp_Wall
+	Asset Type: StaticMesh
+	Asset Name: /Game/StarterContent/Props/SM_Lamp_Ceiling.SM_Lamp_Ceiling
+	Asset Type: StaticMesh
+	Asset Name: /Game/StarterContent/Props/Materials/M_Lamp.M_Lamp
+	Asset Type: Material
+	Asset Name: /Game/StarterContent/Props/Materials/M_Chair.M_Chair
+	Asset Type: Material
+	Asset Name: /Game/StarterContent/Props/MaterialSphere.MaterialSphere
+	Asset Type: StaticMesh
+	Asset Name: /Game/StarterContent/Props/SM_Chair.SM_Chair
+	Asset Type: StaticMesh
+	Asset Name: /Game/StarterContent/Props/Materials/M_Frame.M_Frame
+	Asset Type: Material
+	Asset Name: /Game/StarterContent/Props/SM_CornerFrame.SM_CornerFrame
+	Asset Type: StaticMesh
+	Asset Name: /Game/StarterContent/Props/SM_DoorFrame.SM_DoorFrame
+	Asset Type: StaticMesh
+	Asset Name: /Game/StarterContent/Props/SM_GlassWindow.SM_GlassWindow
+	Asset Type: StaticMesh
+[2024.07.11-11.02.29:614][901]LogStaticMesh: Display: Building static mesh SM_Lamp_Wall...
+[2024.07.11-11.02.29:641][901]LogStaticMesh: Display: Building static mesh SM_Lamp_Ceiling...
+[2024.07.11-11.02.29:642][901]LogStaticMesh: Display: Building static mesh SM_Chair...
+[2024.07.11-11.02.29:660][901]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/StarterContent/Props/SM_Chair) ...
+[2024.07.11-11.02.29:700][901]LogStaticMesh: Built static mesh [0.09s] /Game/StarterContent/Props/SM_Lamp_Wall.SM_Lamp_Wall
+[2024.07.11-11.02.29:710][901]LogStaticMesh: Built static mesh [0.07s] /Game/StarterContent/Props/SM_Lamp_Ceiling.SM_Lamp_Ceiling
+[2024.07.11-11.02.29:724][901]LogStaticMesh: Adjacency [0.00s], tris: 1782, UVs 1
+[2024.07.11-11.02.29:730][901]LogStaticMesh: Clustering [0.01s]. Ratio: 1.000000
+[2024.07.11-11.02.29:730][901]LogStaticMesh: Leaves [0.00s]
+[2024.07.11-11.02.29:857][901]LogStaticMesh: Reduce [0.13s]
+[2024.07.11-11.02.29:921][901]LogStaticMesh: Fallback 0/1 [0.06s], num tris: 816
+[2024.07.11-11.02.29:922][901]LogStaticMesh: ConstrainClusters:
+[2024.07.11-11.02.29:923][901]LogStaticMesh:   Input: 28 Clusters, 3546 Triangles and 3467 Vertices
+[2024.07.11-11.02.29:923][901]LogStaticMesh:   Output without splits: 28 Clusters, 3546 Triangles and 3505 Vertices
+[2024.07.11-11.02.29:923][901]LogStaticMesh:   Output with splits: 28 Clusters, 3546 Triangles and 3505 Vertices
+[2024.07.11-11.02.29:923][901]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 28, Slow Path Clusters: 0, 1 Material: 28, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2024.07.11-11.02.29:924][901]LogStaticMesh: WritePages:
+[2024.07.11-11.02.29:924][901]LogStaticMesh:   Root: GPU size: 32532 bytes. 1 Pages. 32532.000 bytes per page (99.280% utilization).
+[2024.07.11-11.02.29:924][901]LogStaticMesh:   Streaming: GPU size: 11920 bytes. 1 Pages (1 with relative encoding). 11920.000 bytes per page (9.094% utilization).
+[2024.07.11-11.02.29:924][901]LogStaticMesh:   Page data disk size: 36180 bytes. Fixup data size: 256 bytes.
+[2024.07.11-11.02.29:924][901]LogStaticMesh:   Total GPU size: 44452 bytes, Total disk size: 36436 bytes.
+[2024.07.11-11.02.29:924][901]LogStaticMesh: Encode [0.00s]
+[2024.07.11-11.02.29:924][901]LogStaticMesh: Nanite build [0.19s]
+
+[2024.07.11-11.02.29:928][901]LogStaticMesh: Built static mesh [0.29s] /Game/StarterContent/Props/SM_Chair.SM_Chair
+[2024.07.11-11.02.30:667][901]LogStaticMesh: Display: Building static mesh SM_CornerFrame...
+[2024.07.11-11.02.30:672][901]LogStaticMesh: Built static mesh [0.00s] /Game/StarterContent/Props/SM_CornerFrame.SM_CornerFrame
+[2024.07.11-11.02.30:690][901]LogStaticMesh: Display: Building static mesh SM_DoorFrame...
+[2024.07.11-11.02.30:692][901]LogStaticMesh: Built static mesh [0.00s] /Game/StarterContent/Props/SM_DoorFrame.SM_DoorFrame
+[2024.07.11-11.02.30:723][901]LogStaticMesh: Display: Building static mesh SM_PillarFrame...
+[2024.07.11-11.02.30:729][901]LogStaticMesh: Built static mesh [0.01s] /Game/StarterContent/Props/SM_PillarFrame.SM_PillarFrame
+[2024.07.11-11.02.30:764][901]LogStaticMesh: Display: Building static mesh SM_PillarFrame300...
+[2024.07.11-11.02.30:771][901]LogStaticMesh: Built static mesh [0.01s] /Game/StarterContent/Props/SM_PillarFrame300.SM_PillarFrame300
+[2024.07.11-11.02.30:805][901]LogStaticMesh: Display: Building static mesh SM_Statue...
+[2024.07.11-11.02.30:823][901]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/StarterContent/Props/SM_Statue) ...
+[2024.07.11-11.02.30:836][901]LogStaticMesh: Built static mesh [0.03s] /Game/StarterContent/Props/SM_Statue.SM_Statue
+[2024.07.11-11.02.30:883][901]LogStaticMesh: Display: Building static mesh SM_TableRound...
+[2024.07.11-11.02.30:900][901]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/StarterContent/Props/SM_TableRound) ...
+[2024.07.11-11.02.30:901][901]LogStaticMesh: Adjacency [0.00s], tris: 4320, UVs 2
+[2024.07.11-11.02.30:919][901]LogStaticMesh: Clustering [0.02s]. Ratio: 1.029412
+[2024.07.11-11.02.30:920][901]LogStaticMesh: Leaves [0.00s]
+[2024.07.11-11.02.31:156][901]LogStaticMesh: Reduce [0.24s]
+[2024.07.11-11.02.31:239][901]LogStaticMesh: Fallback 0/1 [0.08s], num tris: 1022
+[2024.07.11-11.02.31:243][901]LogStaticMesh: ConstrainClusters:
+[2024.07.11-11.02.31:243][901]LogStaticMesh:   Input: 72 Clusters, 8982 Triangles and 10735 Vertices
+[2024.07.11-11.02.31:243][901]LogStaticMesh:   Output without splits: 72 Clusters, 8982 Triangles and 10737 Vertices
+[2024.07.11-11.02.31:243][901]LogStaticMesh:   Output with splits: 72 Clusters, 8982 Triangles and 10737 Vertices
+[2024.07.11-11.02.31:243][901]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 72, Slow Path Clusters: 0, 1 Material: 72, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2024.07.11-11.02.31:248][901]LogStaticMesh: WritePages:
+[2024.07.11-11.02.31:248][901]LogStaticMesh:   Root: GPU size: 32000 bytes. 1 Pages. 32000.000 bytes per page (97.656% utilization).
+[2024.07.11-11.02.31:248][901]LogStaticMesh:   Streaming: GPU size: 135116 bytes. 2 Pages (2 with relative encoding). 67558.000 bytes per page (51.543% utilization).
+[2024.07.11-11.02.31:248][901]LogStaticMesh:   Page data disk size: 122624 bytes. Fixup data size: 464 bytes.
+[2024.07.11-11.02.31:248][901]LogStaticMesh:   Total GPU size: 167116 bytes, Total disk size: 123088 bytes.
+[2024.07.11-11.02.31:248][901]LogStaticMesh: Encode [0.01s]
+[2024.07.11-11.02.31:248][901]LogStaticMesh: Nanite build [0.33s]
+
+[2024.07.11-11.02.31:252][901]LogStaticMesh: Built static mesh [0.37s] /Game/StarterContent/Props/SM_TableRound.SM_TableRound
+[2024.07.11-11.02.31:543][901]LogStaticMesh: Display: Building static mesh SM_WindowFrame...
+[2024.07.11-11.02.31:546][901]LogStaticMesh: Built static mesh [0.00s] /Game/StarterContent/Props/SM_WindowFrame.SM_WindowFrame
+[2024.07.11-11.02.31:548][901]LogStaticMesh: Display: Building static mesh SM_Bush...
+[2024.07.11-11.02.31:548][901]LogStaticMesh: Display: Building static mesh SM_Couch...
+[2024.07.11-11.02.31:557][901]LogStaticMesh: Built static mesh [0.01s] /Game/StarterContent/Props/SM_Bush.SM_Bush
+[2024.07.11-11.02.31:564][901]LogStaticMesh: Built static mesh [0.02s] /Game/StarterContent/Props/SM_Couch.SM_Couch
+[2024.07.11-11.02.31:566][901]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/StarterContent/Props/SM_Couch) ...
+[2024.07.11-11.02.31:640][901]LogStaticMesh: Display: Building static mesh SM_Door...
+[2024.07.11-11.02.31:643][901]LogStaticMesh: Display: Building static mesh SM_Shelf...
+[2024.07.11-11.02.31:650][901]LogStaticMesh: Built static mesh [0.01s] /Game/StarterContent/Props/SM_Shelf.SM_Shelf
+[2024.07.11-11.02.31:654][901]LogStaticMesh: Built static mesh [0.01s] /Game/StarterContent/Props/SM_Door.SM_Door
+[2024.07.11-11.02.33:461][901]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.07.11-11.02.33:505][901]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2024.07.11-11.02.33:510][901]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2024.07.11-11.02.33:786][901]SourceControl: Error: Updated 0 paths from the index
+[2024.07.11-11.02.34:011][901]SourceControl: Error: warning: could not open directory 'Content/StarterContent/Props/': No such file or directory
+[2024.07.11-11.02.34:011][901]SourceControl: rm 'Content/StarterContent/Props/MaterialSphere.uasset'
+[2024.07.11-11.02.34:011][901]SourceControl: rm 'Content/StarterContent/Props/Materials/M_Bush.uasset'
+[2024.07.11-11.02.34:011][901]SourceControl: rm 'Content/StarterContent/Props/Materials/M_Chair.uasset'
+[2024.07.11-11.02.34:011][901]SourceControl: rm 'Content/StarterContent/Props/Materials/M_Door.uasset'
+[2024.07.11-11.02.34:011][901]SourceControl: rm 'Content/StarterContent/Props/Materials/M_Frame.uasset'
+[2024.07.11-11.02.34:011][901]SourceControl: rm 'Content/StarterContent/Props/Materials/M_Lamp.uasset'
+[2024.07.11-11.02.34:011][901]SourceControl: rm 'Content/StarterContent/Props/Materials/M_Rock.uasset'
+[2024.07.11-11.02.34:011][901]SourceControl: rm 'Content/StarterContent/Props/Materials/M_Shelf.uasset'
+[2024.07.11-11.02.34:011][901]SourceControl: rm 'Content/StarterContent/Props/Materials/M_Statue.uasset'
+[2024.07.11-11.02.34:011][901]SourceControl: rm 'Content/StarterContent/Props/Materials/M_StatueGlass.uasset'
+[2024.07.11-11.02.34:011][901]SourceControl: rm 'Content/StarterContent/Props/Materials/M_TableRound.uasset'
+[2024.07.11-11.02.34:011][901]SourceControl: rm 'Content/StarterContent/Props/SM_Bush.uasset'
+[2024.07.11-11.02.34:011][901]SourceControl: rm 'Content/StarterContent/Props/SM_Chair.uasset'
+[2024.07.11-11.02.34:011][901]SourceControl: rm 'Content/StarterContent/Props/SM_CornerFrame.uasset'
+[2024.07.11-11.02.34:011][901]SourceControl: rm 'Content/StarterContent/Props/SM_Couch.uasset'
+[2024.07.11-11.02.34:011][901]SourceControl: rm 'Content/StarterContent/Props/SM_Door.uasset'
+[2024.07.11-11.02.34:011][901]SourceControl: rm 'Content/StarterContent/Props/SM_DoorFrame.uasset'
+[2024.07.11-11.02.34:011][901]SourceControl: rm 'Content/StarterContent/Props/SM_GlassWindow.uasset'
+[2024.07.11-11.02.34:011][901]SourceControl: rm 'Content/StarterContent/Props/SM_Lamp_Ceiling.uasset'
+[2024.07.11-11.02.34:011][901]SourceControl: rm 'Content/StarterContent/Props/SM_Lamp_Wall.uasset'
+[2024.07.11-11.02.34:011][901]SourceControl: rm 'Content/StarterContent/Props/SM_PillarFrame.uasset'
+[2024.07.11-11.02.34:011][901]SourceControl: rm 'Content/StarterContent/Props/SM_PillarFrame300.uasset'
+[2024.07.11-11.02.34:011][901]SourceControl: rm 'Content/StarterContent/Props/SM_Rock.uasset'
+[2024.07.11-11.02.34:011][901]SourceControl: rm 'Content/StarterContent/Props/SM_Shelf.uasset'
+[2024.07.11-11.02.34:011][901]SourceControl: rm 'Content/StarterContent/Props/SM_Stairs.uasset'
+[2024.07.11-11.02.34:011][901]SourceControl: rm 'Content/StarterContent/Props/SM_Statue.uasset'
+[2024.07.11-11.02.34:011][901]SourceControl: rm 'Content/StarterContent/Props/SM_TableRound.uasset'
+[2024.07.11-11.02.34:011][901]SourceControl: rm 'Content/StarterContent/Props/SM_WindowFrame.uasset'
+[2024.07.11-11.02.34:083][901]LogAutomationController: Ignoring very large delta of 6.07 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.07.11-11.02.36:597][ 92]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2024.07.11-11.02.37:650][ 92]LogSlate: Window 'Delete Assets' being destroyed
+[2024.07.11-11.02.37:673][ 92]LogUObjectGlobals: Force Deleting 16 Package(s):
+	Asset Name: /Game/StarterContent/Particles/P_Steam_Lit.P_Steam_Lit
+	Asset Type: ParticleSystem
+	Asset Name: /Game/StarterContent/Particles/P_Sparks.P_Sparks
+	Asset Type: ParticleSystem
+	Asset Name: /Game/StarterContent/Particles/Materials/M_Spark.M_Spark
+	Asset Type: Material
+	Asset Name: /Game/StarterContent/Particles/P_Smoke.P_Smoke
+	Asset Type: ParticleSystem
+	Asset Name: /Game/StarterContent/Particles/P_Fire.P_Fire
+	Asset Type: ParticleSystem
+	Asset Name: /Game/StarterContent/Particles/Materials/M_smoke_subUV.M_smoke_subUV
+	Asset Type: Material
+	Asset Name: /Game/StarterContent/Particles/Materials/M_Radial_Gradient.M_Radial_Gradient
+	Asset Type: Material
+	Asset Name: /Game/StarterContent/Particles/Materials/M_Heat_Distortion.M_Heat_Distortion
+	Asset Type: Material
+	Asset Name: /Game/StarterContent/Particles/Materials/M_Fire_SubUV.M_Fire_SubUV
+	Asset Type: Material
+	Asset Name: /Game/StarterContent/Particles/Materials/M_Dust_Particle.M_Dust_Particle
+	Asset Type: Material
+[2024.07.11-11.02.38:044][ 92]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2024.07.11-11.02.38:050][ 92]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2024.07.11-11.02.38:054][ 92]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2024.07.11-11.02.38:277][ 92]SourceControl: Error: Updated 0 paths from the index
+[2024.07.11-11.02.38:470][ 92]SourceControl: Error: warning: could not open directory 'Content/StarterContent/Particles/': No such file or directory
+[2024.07.11-11.02.38:470][ 92]SourceControl: rm 'Content/StarterContent/Particles/Materials/M_Burst.uasset'
+[2024.07.11-11.02.38:470][ 92]SourceControl: rm 'Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset'
+[2024.07.11-11.02.38:470][ 92]SourceControl: rm 'Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset'
+[2024.07.11-11.02.38:470][ 92]SourceControl: rm 'Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset'
+[2024.07.11-11.02.38:470][ 92]SourceControl: rm 'Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset'
+[2024.07.11-11.02.38:470][ 92]SourceControl: rm 'Content/StarterContent/Particles/Materials/M_Spark.uasset'
+[2024.07.11-11.02.38:470][ 92]SourceControl: rm 'Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset'
+[2024.07.11-11.02.38:470][ 92]SourceControl: rm 'Content/StarterContent/Particles/Materials/M_radial_ramp.uasset'
+[2024.07.11-11.02.38:470][ 92]SourceControl: rm 'Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset'
+[2024.07.11-11.02.38:470][ 92]SourceControl: rm 'Content/StarterContent/Particles/Materials/m_flare_01.uasset'
+[2024.07.11-11.02.38:470][ 92]SourceControl: rm 'Content/StarterContent/Particles/P_Ambient_Dust.uasset'
+[2024.07.11-11.02.38:470][ 92]SourceControl: rm 'Content/StarterContent/Particles/P_Explosion.uasset'
+[2024.07.11-11.02.38:470][ 92]SourceControl: rm 'Content/StarterContent/Particles/P_Fire.uasset'
+[2024.07.11-11.02.38:470][ 92]SourceControl: rm 'Content/StarterContent/Particles/P_Smoke.uasset'
+[2024.07.11-11.02.38:470][ 92]SourceControl: rm 'Content/StarterContent/Particles/P_Sparks.uasset'
+[2024.07.11-11.02.38:470][ 92]SourceControl: rm 'Content/StarterContent/Particles/P_Steam_Lit.uasset'
+[2024.07.11-11.02.38:500][ 93]LogAutomationController: Ignoring very large delta of 2.01 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.07.11-11.02.46:790][704]LogLinker: Warning: [AssetLog] G:\Tetris\Content\StarterContent\Blueprints\Blueprint_Effect_Explosion.uasset: Failed to load '/Game/StarterContent/Particles/P_Explosion': Can't find file.
+[2024.07.11-11.02.46:790][704]LogLinker: Warning: [AssetLog] G:\Tetris\Content\StarterContent\Blueprints\Blueprint_Effect_Explosion.uasset: VerifyImport: Failed to load package for import object 'Package /Game/StarterContent/Particles/P_Explosion'
+[2024.07.11-11.02.46:795][704]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_CSZE_65536_LCF_false_ZCS_0_MCSO_0_END wave Explosion01...
+[2024.07.11-11.02.46:795][704]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_CSZE_65536_LCF_false_ZCS_0_MCSO_0_END wave Explosion02...
+[2024.07.11-11.02.46:801][704]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2024.07.11-11.02.46:811][704]LogAudio: Display: Chunk sizes for SoundWave /Game/StarterContent/Audio/Explosion01.Explosion01: Chunk0=28 bytes, Chunk1-N=256k
+[2024.07.11-11.02.46:812][704]LogAudio: Display: Chunk sizes for SoundWave /Game/StarterContent/Audio/Explosion02.Explosion02: Chunk0=28 bytes, Chunk1-N=256k
+[2024.07.11-11.02.47:927][704]LogSlate: Window 'Delete Assets' being destroyed
+[2024.07.11-11.02.47:948][704]LogUObjectGlobals: Force Deleting 16 Package(s):
+	Asset Name: /Game/StarterContent/Blueprints/Blueprint_WallSconce.Blueprint_WallSconce
+	Asset Type: Blueprint
+	Asset Name: /Game/StarterContent/Blueprints/Blueprint_CeilingLight.Blueprint_CeilingLight
+	Asset Type: Blueprint
+	Asset Name: /Game/StarterContent/Blueprints/Blueprint_Effect_Steam.Blueprint_Effect_Steam
+	Asset Type: Blueprint
+	Asset Name: /Game/StarterContent/Blueprints/Blueprint_Effect_Sparks.Blueprint_Effect_Sparks
+	Asset Type: Blueprint
+	Asset Name: /Game/StarterContent/Blueprints/Blueprint_Effect_Smoke.Blueprint_Effect_Smoke
+	Asset Type: Blueprint
+	Asset Name: /Game/StarterContent/Blueprints/Blueprint_Effect_Fire.Blueprint_Effect_Fire
+	Asset Type: Blueprint
+	Asset Name: /Game/StarterContent/Blueprints/Assets/FogBrightnessLUT.FogBrightnessLUT
+	Asset Type: CurveFloat
+	Asset Name: /Game/StarterContent/Blueprints/Assets/SunlightColorLUT.SunlightColorLUT
+	Asset Type: CurveLinearColor
+	Asset Name: /Game/StarterContent/Blueprints/Assets/M_LightStage_Arrows.M_LightStage_Arrows
+	Asset Type: Material
+	Asset Name: /Game/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.M_LightStage_Skybox_Master
+	Asset Type: Material
+[2024.07.11-11.02.48:114][704]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2024.07.11-11.02.48:353][704]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2024.07.11-11.02.48:358][704]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2024.07.11-11.02.48:362][704]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2024.07.11-11.02.48:576][704]SourceControl: Error: Updated 0 paths from the index
+[2024.07.11-11.02.48:776][704]SourceControl: Error: warning: could not open directory 'Content/StarterContent/Blueprints/': No such file or directory
+[2024.07.11-11.02.48:776][704]SourceControl: rm 'Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset'
+[2024.07.11-11.02.48:776][704]SourceControl: rm 'Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset'
+[2024.07.11-11.02.48:776][704]SourceControl: rm 'Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset'
+[2024.07.11-11.02.48:776][704]SourceControl: rm 'Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset'
+[2024.07.11-11.02.48:776][704]SourceControl: rm 'Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset'
+[2024.07.11-11.02.48:776][704]SourceControl: rm 'Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset'
+[2024.07.11-11.02.48:776][704]SourceControl: rm 'Content/StarterContent/Blueprints/Assets/Skybox.uasset'
+[2024.07.11-11.02.48:776][704]SourceControl: rm 'Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset'
+[2024.07.11-11.02.48:776][704]SourceControl: rm 'Content/StarterContent/Blueprints/BP_LightStudio.uasset'
+[2024.07.11-11.02.48:776][704]SourceControl: rm 'Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset'
+[2024.07.11-11.02.48:776][704]SourceControl: rm 'Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset'
+[2024.07.11-11.02.48:776][704]SourceControl: rm 'Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset'
+[2024.07.11-11.02.48:776][704]SourceControl: rm 'Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset'
+[2024.07.11-11.02.48:776][704]SourceControl: rm 'Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset'
+[2024.07.11-11.02.48:776][704]SourceControl: rm 'Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset'
+[2024.07.11-11.02.48:776][704]SourceControl: rm 'Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset'
+[2024.07.11-11.02.48:802][705]LogAutomationController: Ignoring very large delta of 2.02 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.07.11-11.02.51:308][936]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_CSZE_65536_LCF_false_ZCS_0_MCSO_0_END wave Light02...
+[2024.07.11-11.02.51:310][936]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_CSZE_65536_LCF_false_ZCS_0_MCSO_0_END wave Light01...
+[2024.07.11-11.02.51:315][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2024.07.11-11.02.51:328][936]LogAudio: Display: Chunk sizes for SoundWave /Game/StarterContent/Audio/Light02.Light02: Chunk0=28 bytes, Chunk1-N=256k
+[2024.07.11-11.02.51:329][936]LogAudio: Display: Chunk sizes for SoundWave /Game/StarterContent/Audio/Light01.Light01: Chunk0=28 bytes, Chunk1-N=256k
+[2024.07.11-11.02.52:425][936]LogSlate: Window 'Delete Assets' being destroyed
+[2024.07.11-11.02.52:551][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2024.07.11-11.02.52:556][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2024.07.11-11.02.52:560][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2024.07.11-11.02.52:734][936]SourceControl: Error: Updated 0 paths from the index
+[2024.07.11-11.02.52:922][936]SourceControl: rm 'Content/StarterContent/Audio/Collapse01.uasset'
+[2024.07.11-11.02.52:922][936]SourceControl: rm 'Content/StarterContent/Audio/Collapse02.uasset'
+[2024.07.11-11.02.52:922][936]SourceControl: rm 'Content/StarterContent/Audio/Collapse_Cue.uasset'
+[2024.07.11-11.02.52:922][936]SourceControl: rm 'Content/StarterContent/Audio/Explosion01.uasset'
+[2024.07.11-11.02.52:922][936]SourceControl: rm 'Content/StarterContent/Audio/Explosion02.uasset'
+[2024.07.11-11.02.52:922][936]SourceControl: rm 'Content/StarterContent/Audio/Explosion_Cue.uasset'
+[2024.07.11-11.02.52:922][936]SourceControl: rm 'Content/StarterContent/Audio/Fire01.uasset'
+[2024.07.11-11.02.52:922][936]SourceControl: rm 'Content/StarterContent/Audio/Fire01_Cue.uasset'
+[2024.07.11-11.02.52:922][936]SourceControl: rm 'Content/StarterContent/Audio/Fire_Sparks01.uasset'
+[2024.07.11-11.02.52:922][936]SourceControl: rm 'Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset'
+[2024.07.11-11.02.52:922][936]SourceControl: rm 'Content/StarterContent/Audio/Light01.uasset'
+[2024.07.11-11.02.52:922][936]SourceControl: rm 'Content/StarterContent/Audio/Light01_Cue.uasset'
+[2024.07.11-11.02.52:922][936]SourceControl: rm 'Content/StarterContent/Audio/Light02.uasset'
+[2024.07.11-11.02.52:922][936]SourceControl: rm 'Content/StarterContent/Audio/Light02_Cue.uasset'
+[2024.07.11-11.02.52:922][936]SourceControl: rm 'Content/StarterContent/Audio/Smoke01.uasset'
+[2024.07.11-11.02.52:922][936]SourceControl: rm 'Content/StarterContent/Audio/Smoke01_Cue.uasset'
+[2024.07.11-11.02.52:922][936]SourceControl: rm 'Content/StarterContent/Audio/Starter_Background_Cue.uasset'
+[2024.07.11-11.02.52:922][936]SourceControl: rm 'Content/StarterContent/Audio/Starter_Birds01.uasset'
+[2024.07.11-11.02.52:922][936]SourceControl: rm 'Content/StarterContent/Audio/Starter_Music01.uasset'
+[2024.07.11-11.02.52:922][936]SourceControl: rm 'Content/StarterContent/Audio/Starter_Music_Cue.uasset'
+[2024.07.11-11.02.52:922][936]SourceControl: rm 'Content/StarterContent/Audio/Starter_Wind05.uasset'
+[2024.07.11-11.02.52:922][936]SourceControl: rm 'Content/StarterContent/Audio/Starter_Wind06.uasset'
+[2024.07.11-11.02.52:922][936]SourceControl: rm 'Content/StarterContent/Audio/Steam01.uasset'
+[2024.07.11-11.02.52:922][936]SourceControl: rm 'Content/StarterContent/Audio/Steam01_Cue.uasset'
+[2024.07.11-11.02.58:090][356]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2024.07.11-11.02.59:004][356]LogSlate: Window 'Delete Assets' being destroyed
+[2024.07.11-11.02.59:121][356]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2024.07.11-11.02.59:126][356]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2024.07.11-11.02.59:130][356]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2024.07.11-11.02.59:308][356]SourceControl: Error: Updated 0 paths from the index
+[2024.07.11-11.02.59:454][356]SourceControl: rm 'Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2024.07.11-11.02.59:454][356]SourceControl: rm 'Content/StarterContent/Architecture/Pillar_50x500.uasset'
+[2024.07.11-11.02.59:454][356]SourceControl: rm 'Content/StarterContent/Architecture/SM_AssetPlatform.uasset'
+[2024.07.11-11.02.59:454][356]SourceControl: rm 'Content/StarterContent/Architecture/Wall_400x200.uasset'
+[2024.07.11-11.02.59:454][356]SourceControl: rm 'Content/StarterContent/Architecture/Wall_400x300.uasset'
+[2024.07.11-11.02.59:454][356]SourceControl: rm 'Content/StarterContent/Architecture/Wall_400x400.uasset'
+[2024.07.11-11.02.59:454][356]SourceControl: rm 'Content/StarterContent/Architecture/Wall_500x500.uasset'
+[2024.07.11-11.02.59:454][356]SourceControl: rm 'Content/StarterContent/Architecture/Wall_Door_400x300.uasset'
+[2024.07.11-11.02.59:454][356]SourceControl: rm 'Content/StarterContent/Architecture/Wall_Door_400x400.uasset'
+[2024.07.11-11.02.59:454][356]SourceControl: rm 'Content/StarterContent/Architecture/Wall_Window_400x300.uasset'
+[2024.07.11-11.02.59:454][356]SourceControl: rm 'Content/StarterContent/Architecture/Wall_Window_400x400.uasset'
